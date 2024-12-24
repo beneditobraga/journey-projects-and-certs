@@ -3,12 +3,12 @@
 
 List of Projects based on learning from Geek Univsersity Programming School.
 
-#### C 
+#### ```C```
 
 - <a herf="https://github.com/beneditobraga/geek-university-projects/tree/main/c/game">Game</a>
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
 
-#### Python
+#### ```Python```
 
 - (In progress)
     - (In progress)
