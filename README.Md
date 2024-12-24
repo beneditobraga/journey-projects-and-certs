@@ -5,7 +5,7 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 #### ```C```
 
-- <a herf="https://github.com/beneditobraga/geek-university-projects/tree/main/c/game">Game</a>
+- [Game](https://github.com/beneditobraga/geek-university-projects/tree/main/c/game, "Access Here!")
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
 
 #### ```Python```
