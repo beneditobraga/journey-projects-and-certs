@@ -1,4 +1,4 @@
-<h1 align="left">Projects<img align="right" style="margin-top: -40px;" src="images/logo01.jpeg" alt="Logo" width="150"></h1>
+<h1 align="left">Projects<img align="right" style="margin-top: -40px;" src="images/logo01.jpeg" alt="Logo" width="250"></h1>
 
 
 List of Projects based on learning from Geek Univsersity Programming School.
