@@ -17,14 +17,20 @@ typedef struct
 void play();
 void showInfo(calculate calc);
 
+// Player Points Counter
+int points = 0;
+
 int main ()
 {
+    // Random Initialization (Once)
+    srand(time(NULL));
+    
     jogar();
 
     return 0;
 }
 
-// Implementations
+// Implementations Functions
 void play()
 {
 
@@ -33,4 +39,9 @@ void play()
 void showInfo(calculate calc)
 {
     
+}
+
+int sum (int response, calculate calc)
+{
+
 }
