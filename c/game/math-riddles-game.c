@@ -45,3 +45,13 @@ int sum (int response, calculate calc)
 {
 
 }
+
+int subtracts (int response, calculate calc)
+{
+
+}
+
+int multiply (int response, calculate calc)
+{
+
+}
