@@ -38,7 +38,12 @@ void play()
 
 void showInfo(calculate calc)
 {
-    
+    char op[25];
+
+    if(calc.operation == 0)
+    {
+        
+    }
 }
 
 int sum (int response, calculate calc)
