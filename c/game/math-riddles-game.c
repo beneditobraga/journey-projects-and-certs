@@ -40,9 +40,18 @@ void showInfo(calculate calc)
 {
     char op[25];
 
-    if(calc.operation == 0)
+    if(calc.operation == 0) // 0 = Sum
     {
-        
+        sprintf(op, "Sum");
+    } else if (calc.operation == 1) // 1 = Subtraction
+    {
+        sprintf(op, "Subtraction");
+    } else if (calc.operation == 2) // 2 = Multiplication
+    {
+        sprintf(op, "Multiplication");
+    } else
+    {
+        sprintf(op, "Unknown Operation");
     }
 }
 
