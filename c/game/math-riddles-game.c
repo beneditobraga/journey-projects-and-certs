@@ -53,11 +53,30 @@ void showInfo(calculate calc)
     {
         sprintf(op, "Unknown Operation");
     }
+
+    printf("\nValue 1: %d \nValue 2: %d \nDifficulty: %d \nOperation: %s \n\n",
+        calc.value1, calc.value2, calc.difficulty, op);
 }
 
 int sum (int response, calculate calc)
 {
+    int result = calc.value1 + calc.value2;
+    calc.result = result;
 
+    int right = 0; // 0 = wrong, 1 = right
+
+    if(response == calc.result)
+    {
+        printf("\nCorrect answer!\n");
+        right = 1;
+    } else
+    {
+        printf("\nWrong answer!\n");
+    }
+
+    printf("\n%d + %d = %d\n", calc.value1, calc.value2, calc.result);
+
+    return right;
 }
 
 int subtracts (int response, calculate calc)
