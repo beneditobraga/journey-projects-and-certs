@@ -102,5 +102,21 @@ int subtracts (int response, calculate calc)
 
 int multiply (int response, calculate calc)
 {
+    int result = calc.value1 * calc.value2;
+    calc.result = result;
 
+    int right = 0; // 0 = wrong, 1 = right
+
+    if(response == calc.result)
+    {
+        printf("\nCorrect answer!\n");
+        right = 1;
+    } else
+    {
+        printf("\nWrong answer!\n");
+    }
+
+    printf("\n%d * %d = %d\n", calc.value1, calc.value2, calc.result);
+
+    return right;
 }
