@@ -33,7 +33,62 @@ int main ()
 // Implementations Functions
 void play()
 {
+    calculate calc;
+    int dificult;
 
+    printf("\nEnter the difficulty level (1, 2, 3, 4):");
+    scanf("%d", &dificult);
+    calc.difficulty = dificult;
+
+    // Random integer value between 0 and 2
+    // 0 = Sum | 1 = Subtraction | 2 = Multiplication
+    calc.operation = rand() % 3;
+
+    if(calc.difficulty == 1)
+    {
+        // Level 01
+        calc.value1 = rand() % 11; // 0 to 10
+        calc.value2 = rand() % 11; // 0 to 10
+    }else if(calc.difficulty == 2)
+    {
+        // Level 02
+        calc.value1 = rand() % 101; // 0 to 100
+        calc.value2 = rand() % 101; // 0 to 100
+    }
+    else if(calc.difficulty == 3)
+    {
+        // Level 03
+        calc.value1 = rand() % 1001; // 0 to 1000
+        calc.value2 = rand() % 1001; // 0 to 1000
+    }
+    else if(calc.difficulty == 4)
+    {
+        // Level 04
+        calc.value1 = rand() % 10001; // 0 to 10000
+        calc.value2 = rand() % 10001; // 0 to 10000
+    } else
+    {
+        // Very difficult
+        calc.value1 = rand() % 100001; // 0 to 100000
+        calc.value2 = rand() % 100001; // 0 to 100000
+    }
+
+    int response;
+    printf("\nReport the result for the operation: \n");
+
+    // Sum
+    if(calc.operation == 0)
+    {
+        printf("%d + %d\n", calc.value1, calc.value2);
+        scanf("%d", &response);
+
+        if (sum(response, calc))
+        {
+            points += 1;
+            printf("\nCurrent Score: %d", points);
+        }
+    }
+    
 }
 
 void showInfo(calculate calc)
