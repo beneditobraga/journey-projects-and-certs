@@ -88,7 +88,49 @@ void play()
             printf("\nCurrent Score: %d", points);
         }
     }
-    
+    // Subtracts
+    else if(calc.operation == 1)
+    {
+        printf("%d - %d\n", calc.value1, calc.value2);
+        scanf("%d", &response);
+
+        if (subtracts(response, calc))
+        {
+            points += 1;
+            printf("\nCurrent Score: %d", points);
+        }
+    }
+    // Multiply
+    else if(calc.operation == 2)
+    {
+        printf("%d * %d\n", calc.value1, calc.value2);
+        scanf("%d", &response);
+
+        if(multiply(response, calc))
+        {
+            points += 1;
+            printf("\nCurrent Score: %d", points);
+        }
+    }
+    // Unknown
+    else 
+    {
+        printf("\nThe operation %d is not recognized.\n", calc.operation);
+    }
+
+    // Start over
+    printf("\nDo you want to continue playing? | 1 - Yes | 2 - No |\n");
+    int continuegame;
+    if(continuegame)
+    {
+        play();
+    }
+    else 
+    {
+        printf("\nFinal Score: %d\n", points);
+        printf("\nAté a próxima!!!\n\n");
+        exit(0);
+    }
 }
 
 void showInfo(calculate calc)
