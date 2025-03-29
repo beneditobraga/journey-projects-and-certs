@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 // Game Data Structure
 typedef struct 
@@ -14,10 +15,13 @@ typedef struct
 } calculate;
 
 // Functions
-void play();
+void playing();
 void showInfo(calculate calc);
+int sum (int response, calculate calc);
+int subtracts (int response, calculate calc);
+int multiply (int response, calculate calc);
 
-// Player Points Counter
+// playinger Points Counter
 int points = 0;
 
 int main ()
@@ -25,18 +29,18 @@ int main ()
     // Random Initialization (Once)
     srand(time(NULL));
     
-    jogar();
+    playing();
 
     return 0;
 }
 
 // Implementations Functions
-void play()
+void playing()
 {
     calculate calc;
     int dificult;
 
-    printf("\nEnter the difficulty level (1, 2, 3, 4):");
+    printf("\nEnter the difficulty level (1, 2, 3, 4): ");
     scanf("%d", &dificult);
     calc.difficulty = dificult;
 
@@ -74,13 +78,13 @@ void play()
     }
 
     int response;
-    printf("\nReport the result for the operation: \n");
+    printf("\nReport the result for the operation ");
 
     // Sum
     if(calc.operation == 0)
     {
         printf("%d + %d\n", calc.value1, calc.value2);
-        scanf("%d", &response);
+        scanf("%d\n", &response);
 
         if (sum(response, calc))
         {
@@ -118,17 +122,20 @@ void play()
         printf("\nThe operation %d is not recognized.\n", calc.operation);
     }
 
+    showInfo(calc);
+
     // Start over
-    printf("\nDo you want to continue playing? | 1 - Yes | 2 - No |\n");
+    printf("\nDo you want to continue playinging? | 1 - Yes | 2 - No |\n");
     int continuegame;
-    if(continuegame)
+    scanf("%d", &continuegame);
+    if(continuegame == 1)
     {
-        play();
+        playing();
     }
     else 
     {
         printf("\nFinal Score: %d\n", points);
-        printf("\nAté a próxima!!!\n\n");
+        printf("\nSee you next time!!!\n\n");
         exit(0);
     }
 }
