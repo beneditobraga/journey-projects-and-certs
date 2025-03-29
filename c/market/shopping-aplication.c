@@ -44,14 +44,32 @@ int main()
 }
 
 // Implementations Functions
+void infoProduct(Product prod)
+{
+    printf("\nCode: %d\nName: %s\nPrice: %.2f\n", prod.code, strtok(prod.name, "\n"), prod.price);
+}
+
 void menu()
 {
+    printf("\n=========================================\n");
+    printf("\n              Welcome!                   \n");
+    printf("\n=========================================\n");
+    printf("\n             Geek Shop                   \n");
+    printf("\n=========================================\n\n");
+
+    printf("Select an option:\n\n");
+    printf(" - 1 \n");
+    printf(" - 2 \n");
+    printf(" - 3 \n");
+    printf(" - 4 \n");
+    printf(" - 5 \n");
+    printf(" - 6 \n");
 
 }
 
 void registerProduct()
 {
-
+    
 }
 
 void listProduct()
