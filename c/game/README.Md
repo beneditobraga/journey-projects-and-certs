@@ -5,23 +5,23 @@ Mathematical calculation game where the difficulty is based on the level informe
 
 #### How to Play 
 
-First choose the level:
+- First choose the level:
 
-<img align="center" alt="Image showing level selection" src="images/choose-level.png">
+<div align="center"><img alt="Image showing level selection" src="images/choose-level.png"></div>
 
-<br>Answer the mathematical operation:
+ - Answer the mathematical operation:
 
 <img align="center" alt="Image showing math question." src="images/question.png">
 
-<br>If you get it right, the game will show the operation, the score and data related to the operation:
+ - If you get it right, the game will show the operation, the score and data related to the operation:
 
 <img align="center" alt="Image showing game result." src="images/result.png">
 
-<br>Then the game will ask if you want to continue playing, if the answer is yes, it will start from the beginning adding the points already earned:
+ - Then the game will ask if you want to continue playing, if the answer is yes, it will start from the beginning adding the points already earned:
 
 <img align="center" alt="Image showing game result." src="images/question2.png">
 
-<br>If the answer is "No", the game will be over:
+ - If the answer is "No", the game will be over:
 
 <img align="center" alt="Image showing game over." src="images/finally.png">
 
