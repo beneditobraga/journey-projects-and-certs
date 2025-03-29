@@ -31,11 +31,7 @@ Mathematical calculation game where the difficulty is based on the level informe
 
 #### Dependencies
 
-
-
-#### Images
-
-
+You need the C language compiler installed and an IDE. Copy and paste the code into your IDE, compile and start playing.
 
 ## Creator
 
