@@ -67,7 +67,7 @@ void menu()
     printf(" - 6 Exit\n");
 
     int option;
-    printf("\n     Optin: ");
+    printf("\n   Optin: ");
     scanf("%d", &option);
     getchar();
 
@@ -83,16 +83,21 @@ void menu()
         buyProduct();
         break;
     case 4:
-        registerProduct();
+        showCart();
         break;
     case 5:
-        registerProduct();
+        checkout();
         break;
     case 6:
-        registerProduct();
+        printf("\nCome back soon!\n");
+        sleep(2); 
+        exit(0);
         break;
     
     default:
+        printf("\nInvalid Option!\n");
+        sleep(2);
+        menu();
         break;
     }
 
@@ -100,17 +105,28 @@ void menu()
 
 void registerProduct()
 {
-    
+    printf("\n == Register Product == \n");
+
+    printf("\nName Product: ");
+    fgets(products[counterProduct].name, 30, stdin);
+
+    printf("\nPrice Product: ");
+    scanf("%f", &products[counterProduct].price);
+
+    printf("\nThe product %s was registered successfully!\n", strtok(products[counterProduct].name, "\n"));
+
+    products[counterProduct].code = (counterProduct + 1);
+    counterProduct++;
 }
 
 void listProduct()
 {
-
+    // Continue...
 }
 
 void buyProduct()
 {
-    
+
 }
 
 void showCart()
