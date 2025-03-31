@@ -25,6 +25,7 @@ void infoProduct(Product prod);
 void menu();
 void registerProduct();
 void listProduct();
+void buyProduct();
 void showCart();
 Product takeProductPerCode(int code);
 int * haveInCart(int code);
@@ -58,12 +59,42 @@ void menu()
     printf("\n=========================================\n\n");
 
     printf("Select an option:\n\n");
-    printf(" - 1 \n");
-    printf(" - 2 \n");
-    printf(" - 3 \n");
-    printf(" - 4 \n");
-    printf(" - 5 \n");
-    printf(" - 6 \n");
+    printf(" - 1 Register\n");
+    printf(" - 2 List\n");
+    printf(" - 3 Buy\n");
+    printf(" - 4 View\n");
+    printf(" - 5 Checkout\n");
+    printf(" - 6 Exit\n");
+
+    int option;
+    printf("\n     Optin: ");
+    scanf("%d", &option);
+    getchar();
+
+    switch (option)
+    {
+    case 1:
+        registerProduct();
+        break;
+    case 2:
+        listProduct();
+        break;
+    case 3:
+        buyProduct();
+        break;
+    case 4:
+        registerProduct();
+        break;
+    case 5:
+        registerProduct();
+        break;
+    case 6:
+        registerProduct();
+        break;
+    
+    default:
+        break;
+    }
 
 }
 
@@ -75,6 +106,11 @@ void registerProduct()
 void listProduct()
 {
 
+}
+
+void buyProduct()
+{
+    
 }
 
 void showCart()
