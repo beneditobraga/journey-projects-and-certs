@@ -121,7 +121,23 @@ void registerProduct()
 
 void listProduct()
 {
-    // Continue...
+    if(counterProduct > 0)
+    {
+        printf("\n == List Product == \n\n");
+        for (int i = 0; i < counterProduct; i++)
+        {
+            infoProduct(products[i]);
+            printf("\n===========================\n");
+            sleep(1);
+        }
+    }
+    else
+    {
+        printf("\nThere are no registered products.\n");
+        sleep(2);
+        menu();
+    }
+
 }
 
 void buyProduct()
@@ -131,7 +147,7 @@ void buyProduct()
 
 void showCart()
 {
-
+    // Continue...
 }
 
 Product takeProductPerCode(int code)
