@@ -178,7 +178,15 @@ Product takeProductPerCode(int code)
 
 int * haveInCart(int code)
 {
-
+    int static back[] = {0, 0};
+    for (int i = 0; i < counterCart; i++)
+    {
+        if(cart[i].product.code == code)
+        {
+            back[0] = 1; // Have this product in Cart
+            back[1] = i; // Index of Product in Cart
+        }
+    }
 }
 
 void checkout()
