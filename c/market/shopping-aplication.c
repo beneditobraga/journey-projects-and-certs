@@ -187,9 +187,10 @@ int * haveInCart(int code)
             back[1] = i; // Index of Product in Cart
         }
     }
+    return back;
 }
 
 void checkout()
 {
-
+    // Continue...
 }
