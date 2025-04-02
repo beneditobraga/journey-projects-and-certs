@@ -147,7 +147,20 @@ void buyProduct()
 
 void showCart()
 {
-    // Continue...
+    if(counterCart > 0)
+    {
+        printf("\nCart Products:\n");
+        for (int i = 0; i < counterCart; i ++)
+        {
+            infoProduct(cart[i].product);
+            printf("\nAmount: %d\n", cart[i].amount);
+            sleep(1);
+        }
+    }
+    else
+    {
+        printf("\nEmpty cart.\n");
+    }
 }
 
 Product takeProductPerCode(int code)
