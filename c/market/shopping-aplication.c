@@ -165,7 +165,15 @@ void showCart()
 
 Product takeProductPerCode(int code)
 {
-
+    Product p;
+    for (int i = 0; i < counterProduct; i++)
+    {
+        if(products[i].code == code)
+        {
+            p = products[i];
+        }
+    }
+    return p;
 }
 
 int * haveInCart(int code)
