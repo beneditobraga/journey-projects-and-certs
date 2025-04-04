@@ -192,5 +192,21 @@ int * haveInCart(int code)
 
 void checkout()
 {
-    // Continue...
+    if (counterCart > 0)
+    {
+        float totalvalue = 0.0;
+        printf("\nCart Products\n");
+        for(int i = 0; i < counterCart; i++)
+        {
+            Product p = cart[i].product;
+            int amount = cart[i].amount;
+            
+        }
+    }
+    else
+    {
+        printf("\nEmpty Cart!\n");
+        sleep(3);
+        menu();
+    }
 }
