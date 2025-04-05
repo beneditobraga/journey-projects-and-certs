@@ -200,8 +200,20 @@ void checkout()
         {
             Product p = cart[i].product;
             int amount = cart[i].amount;
-            
+            totalvalue += p.price * amount;
+            infoProduct(p);
+            printf("\nAmount: %d\n", amount);
+            sleep(1);
         }
+
+        printf("\nYour invoice is: %2.f\n", totalvalue);
+
+        // Clean Cart
+
+        counterCart = 0;
+        printf("\nThank you for your preference!\n");
+        sleep(5);
+        menu();
     }
     else
     {
@@ -209,4 +221,6 @@ void checkout()
         sleep(3);
         menu();
     }
+
+    
 }
