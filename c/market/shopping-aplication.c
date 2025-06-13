@@ -149,6 +149,31 @@ void buyProduct()
         for(int i = 0; i < counterProduct; i++)
         {
             infoProduct(products[i]);
+            printf("----------------------\n");
+            sleep(1);
+        }
+        int cod;
+        scanf("%d", &cod);
+        getchar();
+
+        int hasMarket = 0;
+        for(int i = 0; i < counterProduct; i++)
+        {
+            if(products[i].code == cod)
+            {
+                hasMarket = 1;
+
+                if(counterCart > 0)
+                {
+                    int * retorno = haveInCart(cod);
+
+                    if(retorno[0] = 1)
+                    {
+                        cart[retorno[1]].amount++;
+                        printf("\nI increased the quantity of product %s already in the cart.\n", cart[retorno[1]].product.name);
+                    }
+                }
+            }
         }
     }
     else
