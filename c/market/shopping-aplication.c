@@ -142,7 +142,21 @@ void listProduct()
 
 void buyProduct()
 {
-
+    if(counterProduct > 0)
+    {
+        printf("\nEnter the product code to add to cart:\n");
+        printf("\n============== Available Products ===================\n");
+        for(int i = 0; i < counterProduct; i++)
+        {
+            infoProduct(products[i]);
+        }
+    }
+    else
+    {
+        printf("\nThere are no products for sale yet.\n");
+        sleep(2);
+        menu();
+    }
 }
 
 void showCart()
