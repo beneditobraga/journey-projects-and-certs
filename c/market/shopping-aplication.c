@@ -67,7 +67,7 @@ void menu()
     printf(" - 6 Exit\n");
 
     int option;
-    printf("\n   Optin: ");
+    printf("\n   Option: ");
     scanf("%d", &option);
     getchar();
 
@@ -89,7 +89,7 @@ void menu()
         checkout();
         break;
     case 6:
-        printf("\nCome back soon!\n");
+        printf("\nCome back soon!\n\n");
         sleep(2); 
         exit(0);
         break;
@@ -227,6 +227,8 @@ void showCart()
     else
     {
         printf("\nEmpty cart.\n");
+        sleep(2);
+        menu();
     }
 }
 
