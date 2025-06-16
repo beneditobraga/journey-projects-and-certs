@@ -167,13 +167,41 @@ void buyProduct()
                 {
                     int * retorno = haveInCart(cod);
 
-                    if(retorno[0] = 1)
+                    if(retorno[0] == 1)
                     {
                         cart[retorno[1]].amount++;
-                        printf("\nI increased the quantity of product %s already in the cart.\n", cart[retorno[1]].product.name);
+                        printf("\nI increased the quantity of product %s already in the cart.\n", strtok(cart[retorno[1]].product.name, "/n"));
+                        sleep(2);
+                        menu();
+                    }
+                    else
+                    {
+                        Product p = takeProductPerCode(cod);
+                        cart[counterCart].product = p;
+                        cart[counterCart].amount = 1;
+                        counterCart++;
+                        printf("\nThe product %s has been added to the cart.\n", strtok(p.name, "\n"));
+                        sleep(2);
+                        menu();
                     }
                 }
+                else
+                {
+                    Product p = takeProductPerCode(cod);
+                    cart[counterCart].product = p;
+                    cart[counterCart].amount = 1;
+                    counterCart++;
+                    printf("\nThe product %s has been added to the cart.\n", strtok(p.name, "\n"));
+                    sleep(2);
+                    menu();
+                }
             }
+        }
+        if(hasMarket < 1)
+        {
+            printf("\nThe product with the code was not found:\n", cod);
+            sleep(2);
+            menu();
         }
     }
     else
