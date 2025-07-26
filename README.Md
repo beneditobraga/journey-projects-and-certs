@@ -8,6 +8,14 @@ List of Projects based on learning from Geek Univsersity Programming School.
 - [Game](https://github.com/beneditobraga/geek-university-projects/tree/main/c/game "Access Here!")
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
 
+- [Market](https://github.com/beneditobraga/geek-university-projects/tree/main/c/market "Access Here!")
+    - Marketplace that simulates the process of registering items and purchasing online.
+
+### ```Java```
+
+- (In progress)
+    - (In progress)
+
 ### ```Python```
 
 - (In progress)
