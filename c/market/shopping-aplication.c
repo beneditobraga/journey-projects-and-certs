@@ -117,6 +117,9 @@ void registerProduct()
 
     products[counterProduct].code = (counterProduct + 1);
     counterProduct++;
+
+    sleep(2);
+    menu();
 }
 
 void listProduct()
@@ -130,6 +133,8 @@ void listProduct()
             printf("\n===========================\n");
             sleep(1);
         }
+        sleep(2);
+        menu();
     }
     else
     {
@@ -223,6 +228,8 @@ void showCart()
             printf("\nAmount: %d\n", cart[i].amount);
             sleep(1);
         }
+        sleep(2);
+        menu();
     }
     else
     {
