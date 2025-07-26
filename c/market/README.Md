@@ -5,29 +5,39 @@ Grocery shopping application. There is a menu where you can register, list and b
 
 #### How to Use 
 
-- 
-
-<div ><img alt="" src="images/"></div>
+Running the program
+- Start of the Program
+<div ><img alt="" src="images/run-01.png"></div>
 <br>
 
+###### Option 1 - Register
  - 
-
-<div ><img alt="" src="images/"></div>
-<br>
- 
- - 
-
 <div ><img alt="" src="images/"></div>
 <br>
  
+ ###### Option 2 - List
  - 
-
 <div ><img alt="" src="images/"></div>
 <br>
  
+ ###### Option 3 - Buy
  - 
-
 <div ><img alt="" src="images/"></div>
+<br>
+ 
+ ###### Option 4 - View
+ - 
+<div ><img alt="" src="images/"></div>
+<br>
+
+ ###### Option 5 - Checkout
+ - 
+<div ><img alt="" src="images/"></div>
+<br>
+
+ ###### Option 6 - Exit
+ - It is used to exit the program at any time.
+<div ><img alt="" src="images/option-06.png"></div>
 <br>
 
 #### Dependencies
