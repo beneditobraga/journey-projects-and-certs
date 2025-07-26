@@ -11,29 +11,65 @@ Running the program
 <br>
 
 ###### Option 1 - Register
- - 
-<div ><img alt="" src="images/"></div>
+ - Enter the name of the product you wish to register, for ours we entered "Playstation 5" as an example.
+<div ><img alt="" src="images/option-01-name.png"></div>
 <br>
- 
+
+ - Enter the amount for the same product, we enter "1555.45" as an example.
+<div ><img alt="" src="images/option-01-price.png"></div>
+<br>
+
+ - This message will appear if everything went successfully.
+<div ><img alt="" src="images/option-01-sucess.png"></div>
+<br>
+
+ - We will register two more products for examples, as shown in the next images.
+<div ><img alt="" src="images/option-01-xbox.png"></div>
+<br>
+ <div ><img alt="" src="images/option-01-nitendo.png"></div>
+<br>
+
  ###### Option 2 - List
- - 
-<div ><img alt="" src="images/"></div>
+ - It is used to list registered products, as we did in the previous topic.
+<div ><img alt="" src="images/option-02.png"></div>
+<br>
+
+ - If there are no registered products, this message will appear.
+<div ><img alt="" src="images/no-registered.png"></div>
 <br>
  
  ###### Option 3 - Buy
- - 
-<div ><img alt="" src="images/"></div>
+ - Used to purchase registered products. Enter the code of the product you wish to purchase.
+<div ><img alt="" src="images/option-03-buy.png"></div>
 <br>
+
+- After selecting the code, a confirmation message will appear. We chose "Code: 1" for our example. We will add more items to our cart for a multiple purchase.
+<div ><img alt="" src="images/option-03-confirmation.png"></div>
+<br>
+
+ - If there are no registered products, this message will appear.
+<div ><img alt="" src="images/no-products.png"></div>
+<br>
+
  
  ###### Option 4 - View
- - 
-<div ><img alt="" src="images/"></div>
+ - This is used to preview the shopping list before checkout. Note that in our example, we added one item with code 1 and two items with code 2.
+<div ><img alt="" src="images/option-04.png"></div>
+<br>
+
+- If nothing has been added as a purchase, this message will appear.
+<div ><img alt="" src="images/empty-cart.png"></div>
 <br>
 
  ###### Option 5 - Checkout
- - 
-<div ><img alt="" src="images/"></div>
+ - It serves to confirm purchase and payment, the system will automatically add and simulate an invoice.
+<div ><img alt="" src="images/option-05.png"></div>
 <br>
+
+- If nothing has been added as a purchase, this message will appear.
+<div ><img alt="" src="images/option-05-empty.png"></div>
+<br>
+
 
  ###### Option 6 - Exit
  - It is used to exit the program at any time.
