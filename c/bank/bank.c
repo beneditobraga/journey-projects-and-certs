@@ -35,8 +35,12 @@ void listAccounts();
 float updateBalance(Account account);
 Account searchByNumber(int number);
 void withdraw(Account account, float value);
-void deposit(Account sourceAccount, Account destinationAccount, float value);
-void transfer(Account)
+void deposit(Account account, float value);
+void transfer(Account sourceAccount, Account destinationAccount, float value);
+
+static Account accounts[50];
+static int counterAccounts = 0;
+static int counterClients = 0;
 
 int main()
 {
@@ -44,4 +48,64 @@ int main()
     menu();
 
     return 0;
+}
+
+void menu()
+{
+
+}
+
+void infoClient(Client client)
+{
+
+}
+
+void infoAccount(Account account)
+{
+
+}
+
+void createAccount()
+{
+
+}
+
+float updateBalance(Account account)
+{
+
+}
+
+Account searchByNumber(int number)
+{
+
+}
+
+void withdraw(Account account, float value)
+{
+
+}
+
+void deposit(Account account, float value)
+{
+
+}
+
+void transfer(Account sourceAccount, Account destinationAccount, float value)
+{
+
+}
+
+void makeWithdraw()
+{
+
+}
+
+void makeDeposit()
+{
+
+}
+
+void makeTransfer()
+{
+
 }
