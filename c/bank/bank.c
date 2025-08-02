@@ -129,11 +129,23 @@ void createAccount()
 
 float updateBalance(Account account)
 {
-
+    return account.balance + account.limit;
 }
 
 Account searchByNumber(int number)
 {
+    Account c;
+
+    if(counterAccounts > 0)
+    {
+        for(int i = 0; i < counterAccounts; i++)
+        {
+            if(accounts[i].number == number)
+            {
+                c = accounts[i];
+            }
+        }
+    }
 
 }
 
