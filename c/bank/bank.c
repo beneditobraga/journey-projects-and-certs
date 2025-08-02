@@ -24,7 +24,21 @@ typedef struct
     float totalBalance; // Balance + Limit
 }Account;
 
-int main ()
+void menu();
+void infoClient(Client Client);
+void infoAccount(Account account);
+void createAccount();
+void makeWithdraw();
+void makeDeposit();
+void makeTransfer();
+void listAccounts();
+float updateBalance(Account account);
+Account searchByNumber(int number);
+void withdraw(Account account, float value);
+void deposit(Account sourceAccount, Account destinationAccount, float value);
+void transfer(Account)
+
+int main()
 {
 
     menu();
