@@ -13,7 +13,7 @@ typedef struct
     char cpf[20];
     char dateBirth[20];
     char dateRegistration[20];
-};
+}Client;
 
 
 int main ()
