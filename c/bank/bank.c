@@ -151,7 +151,18 @@ Account searchByNumber(int number)
 
 void withdraw(Account account, float value)
 {
-
+    if(value > 0 && account.totalBalance >= 0)
+    {
+        for(int i = 0; i < counterAccounts; i++)
+        {
+            if(accounts[i].balance >= value)
+            {
+                accounts[i].balance = accounts[i].balance - value;
+                accounts[i].totalBalance = updateBalance(accounts[i]);
+                printf("\nWithdrawal successful!\n");
+            }
+        }
+    }
 }
 
 void deposit(Account account, float value)
