@@ -107,9 +107,12 @@ void menu()
 
 void infoClient(Client client)
 {
+    printf("Code: %d\n", client.code);
+    printf("Name: %d\n", strtok(client.name));
+    printf("Date of Birth: %d\n", strtok(client.dateBirth));
+    printf("Register: %d\n", client.dateRegistration);
 
 }
-
 void infoAccount(Account account)
 {
 
