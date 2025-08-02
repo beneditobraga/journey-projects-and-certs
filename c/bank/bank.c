@@ -15,6 +15,14 @@ typedef struct
     char dateRegistration[20];
 }Client;
 
+typedef struct 
+{
+    int numero;
+    Client client;
+    float balance;
+    float limit;
+    float totalBalance; // Balance + Limit
+}Account;
 
 int main ()
 {
