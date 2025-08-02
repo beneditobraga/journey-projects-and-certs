@@ -17,7 +17,7 @@ typedef struct
 
 typedef struct 
 {
-    int numero;
+    int number;
     Client client;
     float balance;
     float limit;
@@ -108,14 +108,18 @@ void menu()
 void infoClient(Client client)
 {
     printf("Code: %d\n", client.code);
-    printf("Name: %d\n", strtok(client.name));
-    printf("Date of Birth: %d\n", strtok(client.dateBirth));
-    printf("Register: %d\n", client.dateRegistration);
+    printf("Name: %s\n", strtok());
+    printf("Date of Birth: %s\n", strtok(client.dateBirth));
+    printf("Register: %s\n", client.dateRegistration);
 
 }
 void infoAccount(Account account)
 {
-
+    printf("Account: %d\n", account.number);
+    printf("Client: %s\n", strtok(accounts->client.name));
+    printf("Date of Birth: %s\n", strtok(accounts->client.dateBirth));
+    printf("Register: %s\n", strtok(accounts->client.dateRegistration));
+    printf("Total Balance: %.2f\n", accounts->totalBalance);
 }
 
 void createAccount()
