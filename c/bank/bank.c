@@ -52,7 +52,57 @@ int main()
 
 void menu()
 {
+    int option = 0;
 
+    printf("\n======================\n");
+    printf("\n       git Bank         ");
+    printf("\n\n======================\n\n");
+
+    printf("OPTIONS\n\n");
+    printf("  - 1 Create Account\n");
+    printf("  - 2 Withdraw\n");
+    printf("  - 3 Deposit\n");
+    printf("  - 4 Transfer\n");
+    printf("  - 5 Accounts\n");
+    printf("  - 6 Exit\n\n");
+
+    printf("Choice: ");
+    scanf("%d", &option);
+    getchar();
+
+    switch (option)
+    {
+        case 1:
+            createAccount();
+            break;
+
+        case 2:
+            makeWithdraw();
+            break;
+
+        case 3:
+            makeDeposit();
+            break;
+
+        case 4:
+            makeTransfer();
+            break;
+
+        case 5:
+            listAccounts();
+            break;
+
+        case 6:
+            printf("\nSee you next time!\n\n");
+            sleep(2);
+            exit(0);
+    
+        default:
+            printf("");
+            sleep(2);
+            menu();
+            break;
+    }
 }
 
 void infoClient(Client client)
