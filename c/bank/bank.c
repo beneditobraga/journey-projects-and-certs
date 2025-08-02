@@ -155,11 +155,22 @@ void withdraw(Account account, float value)
     {
         for(int i = 0; i < counterAccounts; i++)
         {
-            if(accounts[i].balance >= value)
+            if(accounts[i].number == account.number)
             {
-                accounts[i].balance = accounts[i].balance - value;
-                accounts[i].totalBalance = updateBalance(accounts[i]);
-                printf("\nWithdrawal successful!\n");
+                if(accounts[i].balance >= value)
+                {
+                    accounts[i].balance = accounts[i].balance - value;
+                    accounts[i].totalBalance = updateBalance(accounts[i]);
+                    printf("\nWithdrawal successful!\n");
+                }
+                else
+                {
+                    float remainder = accounts[i].balance - value;
+                    accounts[i].limit = accounts[i].limit - remainder;
+                    accounts[i].balance = 0.0;
+                    accounts[i].totalBalance = updateBalance(accounts[i]);
+                    printf("\nWithdrawal successful!\n");
+                }
             }
         }
     }
