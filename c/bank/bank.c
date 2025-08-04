@@ -198,7 +198,46 @@ void deposit(Account account, float value)
 
 void transfer(Account sourceAccount, Account destinationAccount, float value)
 {
+    // sc = Source Account
+    // cd = Destination Account
 
+    if(value > 0 && sourceAccount.totalBalance >= value) 
+    {
+        for(int sc = 0; sc < counterAccounts; sc++)
+        {
+            if(accounts[sc].number == sourceAccount.number)
+            {
+                for(int dc = 0; dc < counterAccounts; dc++)
+                {
+                    if(accounts[dc].number == destinationAccount.number)
+                    {
+                        if(accounts[sc].balance >= value)
+                        {
+                            accounts[sc].balance = accounts[sc].balance - value;
+                            accounts[dc].balance = accounts[dc].balance + value;
+                            accounts[sc].totalBalance = updateBalance(accounts[sc]);
+                            accounts[dc].totalBalance = updateBalance(accounts[dc]);
+                            printf("\nTransfer successful!\n");
+                        }
+                        else
+                        {
+                            float remainder = accounts[sc].balance - value;
+                            accounts[sc].limit = accounts[sc].limit + remainder;
+                            accounts[sc].balance = 0.0;
+                            accounts[dc].balance = accounts[dc].balance + value;
+                            accounts[sc].totalBalance = updateBalance(accounts[sc]);
+                            accounts[sc].totalBalance = updateBalance(accounts[dc]);
+                            printf("\nTransfer successful!\n");
+                        }
+                    }
+                }
+            }
+        }
+    }
+    else
+    {
+        printf("\nTransfer failed, please try again.\n");
+    }
 }
 
 void makeWithdraw()
