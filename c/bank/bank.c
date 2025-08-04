@@ -178,7 +178,22 @@ void withdraw(Account account, float value)
 
 void deposit(Account account, float value)
 {
-
+    if(value > 0)
+    {
+        for(int i = 0; i < counterAccounts; i++)
+        {
+            if(accounts[i].number == account.number)
+            {
+                accounts[i].balance = accounts[i].balance + value;
+                accounts[i].totalBalance = updateBalance(accounts[i]);
+                printf("\nDeposit made successfully!\n");
+            }
+        }
+    }
+    else
+    {
+        printf("\nError making deposit, please try again.\n");
+    }
 }
 
 void transfer(Account sourceAccount, Account destinationAccount, float value)
