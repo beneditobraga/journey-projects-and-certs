@@ -124,7 +124,51 @@ void infoAccount(Account account)
 
 void createAccount()
 {
+    Client Client;
 
+    // The char will always end with "/0".    
+    char day[3];
+    char month[3];
+    char year[5];
+    char date_register[20];
+
+    time_t t = time(NULL);
+    struct  tm tm = *localtime(&t);
+    
+    // Day
+    if(tm.tm_mday < 10)
+    {
+        sprintf(day, "0%d", tm.tm_mday);
+    }
+    else
+    {
+        sprintf(day, "%d", tm.tm_mday);
+    }
+
+    // Month
+    if((tm.tm_mon + 1) < 10)
+    {
+        sprintf(month, "%d", tm.tm_mon + 1);
+    }
+    else
+    {
+        sprintf(month, "%d", tm.tm_mon + 1);
+    }
+
+    // Year
+    sprintf(year, "%d", tm.tm_year + 1900);
+
+    // Brazilian date format.
+    strcpy(date_register, "");
+    strcat(date_register, day);
+    strcat(date_register, "/");
+    strcat(date_register, month);
+    strcat(date_register, "/");
+    strcat(date_register, year);
+    strcat(date_register, "\0");
+    strcpy(Client.dateRegistration, date_register);
+
+    // Client Creation
 }
 
 float updateBalance(Account account)
