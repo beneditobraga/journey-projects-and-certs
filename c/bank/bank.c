@@ -315,7 +315,34 @@ void transfer(Account sourceAccount, Account destinationAccount, float value)
 
 void makeWithdraw()
 {
+    if(counterAccounts > 0)
+    {
+        int number;
+        printf(" - Make Withdrawal");
+        printf("\nAccount Number:\n");
+        scanf("%d", &number);
 
+        Account account = searchByNumber(number);
+
+        if(account.number == number)
+        {
+            float value;
+            printf("\nValue: ");
+            scanf("%f", &value);
+
+            withdraw(account, value);
+        }
+        else
+        {
+            printf("\nAccount with number not found: %d.\n", number);
+        }
+    }
+    else
+    {
+        printf("\nThere are no registered accounts.\n");
+    }
+    sleep(2);
+    menu();
 }
 
 void makeDeposit()
