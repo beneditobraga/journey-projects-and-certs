@@ -169,6 +169,35 @@ void createAccount()
     strcpy(Client.dateRegistration, date_register);
 
     // Client Creation
+    printf("\nCustomer Data\n");
+    Client.code = counterClients + 1;
+
+    printf("Name: ");
+    fgets(Client.name, 50, stdin);
+    printf("\nE-mail: ");
+    fgets(Client.email, 50, stdin);
+    printf("\nCPF: ");
+    fgets(Client.cpf, 20, stdin);
+    printf("\nDate Birth: ");
+    fgets(Client.dateBirth, 20, stdin);
+
+    counterClients ++;
+
+    // Account Creation
+    accounts[counterAccounts].number = counterAccounts + 1;
+    accounts[counterAccounts].client = Client;
+    accounts[counterAccounts].balance = 0.0;
+    accounts[counterAccounts].limit = 0.0;
+    accounts[counterAccounts].totalBalance = updateBalance(accounts[counterAccounts]);
+
+    printf("Account Created Successfully!\n");
+    sleep(1);
+    printf("Account Data\n")
+    infoAccount(accounts[counterAccounts]);
+    counterAccounts ++;
+
+    sleep(4);
+    menu();
 }
 
 float updateBalance(Account account)
