@@ -379,5 +379,44 @@ void makeDeposit()
 
 void makeTransfer()
 {
+    if(counterAccounts > 0)
+    {
+        int sourceNumber, destinationNumber;
 
+        printf("\nSource Account:");
+        scanf("%d", &sourceNumber);
+
+        Account sourceAccount = searchByNumber(sourceNumber);
+
+        if(sourceAccount.number == sourceNumber)
+        {
+            printf("\nDestination Account: ");
+            scanf("%d", &destinationNumber);
+
+            Account destinationAccount = searchByNumber(destinationNumber);
+
+            if(destinationAccount.number == destinationNumber)
+            {
+                float value;
+                printf("\nTransfer Value: ");
+                scanf("%f", &value);
+
+                transfer(sourceAccount, destinationAccount, value);
+            }
+            else
+            {
+                printf("\nThe target account was not found: %d.\n", destinationNumber);
+            }
+        }
+        else
+        {
+            printf("\nAccount not found: %d\n", sourceNumber);
+        }
+    }
+    else
+    {
+        printf("\nThere are no accounts for transfer yet.\n");
+    }
+    sleep(2);
+    menu();
 }
