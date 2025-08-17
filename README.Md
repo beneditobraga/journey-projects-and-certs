@@ -1,12 +1,10 @@
-# Journey Projects and Certs
+# `Journey Projects and Certs`
 <br>
 <br>
 <br>
 
-<!-- variables -->
-[logo]: images/logo-freecodecamp.svg 
 
-<a href="https://www.freecodecamp.org/">![logo]</a>
+<h2 align="left">freecodecamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="150"></a></h2>
 
 # `Certifications`
 
