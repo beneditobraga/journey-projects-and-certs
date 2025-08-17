@@ -2,7 +2,7 @@
 <br><br>
 
 
-<h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -50px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
+<h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
 
 Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will find the files for the courses I have completed as part of my learning and development journey.
 
