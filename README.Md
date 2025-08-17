@@ -1,16 +1,14 @@
 # `Journey Projects and Certs`
-<br>
-<br>
-<br>
+<br><br><br>
 
 
-<h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="250"></a></h2>
-
-# `Certifications`
+<h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -50px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
 
 Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will find the files for the courses I have completed as part of my learning and development journey.
 
 #### Responsive Web Design
+
+#### `Archive`
 
 - [Survey Form](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/01-survey-form "Access Here!")
 - [Tribute Page](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/02-tribute-page "Access Here!")
@@ -20,6 +18,8 @@ Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will
 #### References
 
 [FreeCodeCamp](https://www.freecodecamp.org/ "Access the course content here.")
+
+<br><br>
 
 <h2 align="left">Projects Geek University<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo01.jpeg" alt="Logo" width="150"></a></h2>
 
@@ -54,4 +54,4 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 ## Creator
 
-[Benedito Braga](https://www.linkedin.com/in/beneditobarroso "Meet the Creator.")
+[Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
