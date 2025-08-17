@@ -4,7 +4,7 @@
 <br>
 
 
-<h2 align="left">freecodecamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="150"></a></h2>
+<h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="250"></a></h2>
 
 # `Certifications`
 
