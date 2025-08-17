@@ -1,5 +1,5 @@
 # `Journey Projects and Certs`
-<br><br><br>
+<br><br>
 
 
 <h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -50px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
@@ -10,8 +10,8 @@ Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will
 
 #### `Archive`
 
-- [Survey Form](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/01-survey-form "Access Here!")
-- [Tribute Page](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/02-tribute-page "Access Here!")
+- [Survey Form](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/01-survey-form "Access Here!")
+- [Tribute Page](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/02-tribute-page "Access Here!")
 
 ---
 
@@ -28,11 +28,14 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 ### ```C```
 
-- [Game](https://github.com/beneditobraga/geek-university-projects/tree/main/c/game "Access Here!")
+- [Game](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/game "Access Here!")
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
 
-- [Market](https://github.com/beneditobraga/geek-university-projects/tree/main/c/market "Access Here!")
+- [Market](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/market "Access Here!")
     - Marketplace that simulates the process of registering items and purchasing online.
+
+- [Bank](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/bank "Access Here!")
+    - .
 
 ### ```Java```
 
@@ -50,8 +53,7 @@ List of Projects based on learning from Geek Univsersity Programming School.
 [Geek University](https://www.geekuniversity.com.br/ "Access the course content here.")
 
 
-
-
+<br><br>
 ## Creator
 
 [Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
