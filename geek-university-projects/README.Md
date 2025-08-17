@@ -5,11 +5,14 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 ### ```C```
 
-- [Game](https://github.com/beneditobraga/geek-university-projects/tree/main/c/game "Access Here!")
+- [Game](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/game "Access Here!")
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
 
-- [Market](https://github.com/beneditobraga/geek-university-projects/tree/main/c/market "Access Here!")
+- [Market](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/market "Access Here!")
     - Marketplace that simulates the process of registering items and purchasing online.
+
+- [Bank](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/bank "Access Here!")
+    - .
 
 ### ```Java```
 
@@ -24,7 +27,7 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 ## Creator
 
-[Benedito Braga](https://www.linkedin.com/in/beneditobarroso "Meet the Creator.")
+[Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
 
 ## References
 

@@ -35,7 +35,7 @@ You need the C language compiler installed and an IDE. Copy and paste the code i
 
 ## Creator
 
-[Benedito Braga](https://www.linkedin.com/in/beneditobarroso "Meet the Creator.")
+[Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
 
 ## References
 
