@@ -37,7 +37,7 @@ This project was based on and inspired by a tax invoice form with some Brazilian
 
 ## Creator
 
-[Benedito Braga](https://www.linkedin.com/in/beneditobarroso "Meet the Creator.")
+[Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
 
 ## References
 
