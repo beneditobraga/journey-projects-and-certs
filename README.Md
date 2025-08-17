@@ -3,6 +3,25 @@
 <br>
 <br>
 
+<!-- variables -->
+[logo]: images/logo-freecodecamp.svg 
+
+<a href="https://www.freecodecamp.org/">![logo]</a>
+
+# `Certifications`
+
+Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will find the files for the courses I have completed as part of my learning and development journey.
+
+#### Responsive Web Design
+
+- [Survey Form](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/01-survey-form "Access Here!")
+- [Tribute Page](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/02-tribute-page "Access Here!")
+
+---
+
+#### References
+
+[FreeCodeCamp](https://www.freecodecamp.org/ "Access the course content here.")
 
 <h2 align="left">Projects Geek University<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo01.jpeg" alt="Logo" width="150"></a></h2>
 
