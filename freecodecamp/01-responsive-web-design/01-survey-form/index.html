@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emissão de Nota Fiscal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 id="title">Emissão de Nota Fiscal</h1>
+    <p id="description">Insira os dados abaixo para emissão da nota</p>
+    <form id="survey-form">
+        <h4 class="data-title">Tipo de Nota</h4>
+            <label><input type="radio" value="value" name="tipo-de-nota" /> Venda</label>
+            <label><input type="radio" value="value" name="tipo-de-nota" /> Serviço</label>
+        
+            <h3 class="data-title">Emissor</h3>
+            <select name="regime" id="dropdown">
+                <option>Simples Nacional</option>
+                <option>Lucro Presumido</option>
+                <option>Lucro Real</option>
+            </select>
+            <label id="name-label">Razão Social <input id="name" type="text" placeholder="EMPRESA LTDA" required /></label>
+            <label id="email-label">E-mail <input id="email" type="email" placeholder="empresa@empresa.com" required /></label>
+            <label id="number-label">DDD <input id="number" type="number" placeholder="011" min="2" max="3" required /></label>
+            <label id="number-phone">Telefone <input id="number-phone2" type="text" placeholder="9 1234 - 5678" min="8" max="9" required /></label>
+        
+        <h3 class="data-title">Destinatário</h3>
+            <select name="regime" id="dropdown">
+                <option>Simples Nacional</option>
+                <option>Lucro Presumido</option>
+                <option>Lucro Real</option>
+            </select>
+            <label id="name-label">Razão Social <input id="name" type="text" placeholder="EMPRESA LTDA" required /></label>
+            <label id="email-label">E-mail <input id="email" type="email" placeholder="empresa@empresa.com" required /></label>
+            <label id="number-label">DDD <input id="number" type="number" placeholder="011" min="2" max="3" required /></label>
+            <label id="number-phone">Telefone <input id="number-phone2" type="text" placeholder="9 1234 - 5678" min="8" max="9" required /></label>
+        
+        <h3 class="data-title">Produtos/Serviços</h3>
+            <textarea id="textarea" placeholder="Digite aqui seus produtos"></textarea>
+            <h3 class="data-title">Valores e Impostos</h3>
+            <p class="text-inci-impostos">Selecione quais impostos incidirá</p>
+
+        <div class="final-part">
+            <label id="box-impostos">ISS <input id="box-impostos" type="checkbox" value="value" required /></label>
+            <label id="box-impostos">ICMS <input id="box-impostos" type="checkbox" value="value" required /></label>
+            <label id="box-impostos">IPI <input id="box-impostos" type="checkbox" value="value" required /></label>    
+            <label id="box-impostos">PIS <input id="box-impostos" type="checkbox" value="value" required /></label>
+            <label id="box-impostos">COFINS <input id="box-impostos" type="checkbox" value="value" required /></label>
+        </div>
+        
+        <div class="final-part2">
+            <label id="total-nota">Total da Nota R$ <input id="total-nota" type="number" format="currency" placeholder="1.000,00" required /></label>
+            <button id="submit">Gravar</button>
+        </div>
+    </form>
+</body>
+</html>
