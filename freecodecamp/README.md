@@ -9,14 +9,14 @@ Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will
 
 #### Responsive Web Design
 
-- [Survey Form](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/01-survey-form "Access Here!")
-- [Tribute Page](https://github.com/beneditobraga/freecodecamp-certifications/tree/main/01-responsive-web-design/02-tribute-page "Access Here!")
+- [Survey Form](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/01-survey-form "Access Here!")
+- [Tribute Page](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/02-tribute-page "Access Here!")
 
 ---
 
 ## Creator
 
-[Benedito Braga](https://www.linkedin.com/in/beneditobarroso "Meet the Creator.")
+[Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
 
 #### References
 
