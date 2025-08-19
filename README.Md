@@ -1,10 +1,14 @@
 # `Journey Projects and Certs`
-<br><br>
+<br>
+
+Hello! Welcome to my repository of course certificates and course projects. Here you'll find the files for the courses I've completed as part of my learning and development journey.
+- - - 
+<br><br><br>
 
 
 <h2 align="left">FreeCodeCamp<a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
 
-Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will find the files for the courses I have completed as part of my learning and development journey.
+FreeCodeCamp Track.
 
 #### Responsive Web Design
 
@@ -23,7 +27,7 @@ Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will
 
 <h2 align="left">Hora de Codar<a href="https://horadecodar.com.br/"><img align="right" style="margin-top: -60px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a></h2>
 
-Hello! 
+Platform Trail Hora de Cordar.
 
 #### `SQL`
 
