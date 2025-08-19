@@ -1,5 +1,4 @@
 # `Journey Projects and Certs`
-<br>
 
 Hello! Welcome to my repository of course certificates and course projects. Here you'll find the files for the courses I've completed as part of my learning and development journey.
 - - - 
@@ -29,10 +28,17 @@ FreeCodeCamp Track.
 
 Platform Trail Hora de Cordar.
 
+[SQL from basic to advanced (with MySQL and Project)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar "Access Here!")
+
 #### `SQL`
 
-- [SQL from basic to advanced (with MySQL and Project)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/01-survey-form "Access Here!")
+- Pizzaria do João
+    - (In progress)
 
+#### `PHP`
+
+- Blog
+    - (In progress)
 
 ---
 
@@ -47,7 +53,8 @@ Platform Trail Hora de Cordar.
 
 List of Projects based on learning from Geek Univsersity Programming School.
 
-### ```C```
+
+### ```C``` 
 
 - [Game](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/game "Access Here!")
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
@@ -63,6 +70,7 @@ List of Projects based on learning from Geek Univsersity Programming School.
 - (In progress)
     - (In progress)
 
+
 ### ```Python```
 
 - (In progress)
@@ -74,7 +82,8 @@ List of Projects based on learning from Geek Univsersity Programming School.
 [Geek University](https://www.geekuniversity.com.br/ "Access the course content here.")
 
 
-<br><br>
+<br>
+
 ## Creator
 
 [Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")
