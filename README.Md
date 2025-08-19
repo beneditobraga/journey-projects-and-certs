@@ -2,7 +2,7 @@
 <br><br>
 
 
-<h2 align="left">FreeCodeCamp<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
+<h2 align="left">FreeCodeCamp<a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
 
 Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will find the files for the courses I have completed as part of my learning and development journey.
 
@@ -18,6 +18,23 @@ Hello! Welcome to my FreeCodeCamp course certificates repository. Here, you will
 #### References
 
 [FreeCodeCamp](https://www.freecodecamp.org/ "Access the course content here.")
+
+<br><br>
+
+<h2 align="left">Hora de Codar<a href="https://horadecodar.com.br/"><img align="right" style="margin-top: -60px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a></h2>
+
+Hello! 
+
+#### `SQL`
+
+- [SQL from basic to advanced (with MySQL and Project)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/01-survey-form "Access Here!")
+
+
+---
+
+#### References
+
+[Hora de Codar](https://horadecodar.com.br/ "Access the course content here.")
 
 <br><br>
 
