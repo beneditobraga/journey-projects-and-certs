@@ -108,18 +108,18 @@ void menu()
 void infoClient(Client client)
 {
     printf("Code: %d\n", client.code);
-    printf("Name: %s\n", strtok());
-    printf("Date of Birth: %s\n", strtok(client.dateBirth));
+    printf("Name: %s\n", client.name);
+    printf("Date of Birth: %s\n", client.dateBirth);
     printf("Register: %s\n", client.dateRegistration);
 
 }
 void infoAccount(Account account)
 {
     printf("Account: %d\n", account.number);
-    printf("Client: %s\n", strtok(accounts->client.name));
-    printf("Date of Birth: %s\n", strtok(accounts->client.dateBirth));
-    printf("Register: %s\n", strtok(accounts->client.dateRegistration));
-    printf("Total Balance: %.2f\n", accounts->totalBalance);
+    printf("Client: %s\n", account.client.name);
+    printf("Date of Birth: %s\n", account.client.dateBirth);
+    printf("Register: %s\n", account.client.dateRegistration);
+    printf("Total Balance: %.2f\n", account.totalBalance);
 }
 
 void createAccount()
@@ -192,7 +192,7 @@ void createAccount()
 
     printf("Account Created Successfully!\n");
     sleep(1);
-    printf("Account Data\n")
+    printf("Account Data\n");
     infoAccount(accounts[counterAccounts]);
     counterAccounts ++;
 
@@ -219,6 +219,8 @@ Account searchByNumber(int number)
             }
         }
     }
+
+    return c;
 
 }
 
@@ -298,7 +300,7 @@ void transfer(Account sourceAccount, Account destinationAccount, float value)
                             accounts[sc].limit = accounts[sc].limit + remainder;
                             accounts[sc].balance = 0.0;
                             accounts[dc].balance = accounts[dc].balance + value;
-                            accounts[sc].totalBalance = updateBalance(accounts[sc]);
+                            accounts[dc].totalBalance = updateBalance(accounts[sc]);
                             accounts[sc].totalBalance = updateBalance(accounts[dc]);
                             printf("\nTransfer successful!\n");
                         }
@@ -419,4 +421,23 @@ void makeTransfer()
     }
     sleep(2);
     menu();
+}
+
+void listAccounts()
+{
+    if(counterAccounts > 0)
+    {
+        for(int i = 0; i < counterAccounts; i++)
+        {
+            infoAccount(accounts[i]);
+            printf("\n\n");
+            sleep(1);
+        }
+    }
+    else
+    {
+        printf("\nThere are no registered accounts yet.\n");
+        sleep(2);
+        menu();
+    }
 }
