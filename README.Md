@@ -17,7 +17,7 @@ FreeCodeCamp Track.
 #### `Archive`
 
 - [Survey Form](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/01-survey-form "Access Here!")
-- [Tribute Page](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/02-tribute-page "Access Here!")
+- [Tribute Page (In progress)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/freecodecamp/01-responsive-web-design/02-tribute-page "Access Here!")
 
 ---
 
@@ -27,7 +27,11 @@ FreeCodeCamp Track.
 
 <br><br>
 
-<h2 align="left">Hora de Codar<a href="https://horadecodar.com.br/"><img align="right" style="margin-top: -90px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a></h2>
+<a href="https://horadecodar.com.br/"><img align="right" style="margin-top: -50px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a>
+
+<br><br>
+
+<h2 align="left">Hora de Codar</h2>
 
 Platform Trail Hora de Cordar.
 
