@@ -11,7 +11,8 @@
                 <div class="post-box">
                     <img src="images/<?= $post['img']?>" alt="">
                     <h2 class="post-title">
-                        <a href="data/post.php/id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
+                        <!--<a href="data/post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a> -->
+                        <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
                     </h2>
                     <p class="post-description"><?= $post['description'] ?></p>
                     <div class="tags-container">
