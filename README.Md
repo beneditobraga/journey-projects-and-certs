@@ -5,7 +5,7 @@ This repository serves as a central hub for my courses and certifications, showc
 <br><br><br>
 
 
-<h2 align="left">FreeCodeCamp<a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -70px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a></h2>
+<h2 align="left">FreeCodeCamp</h2><a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -100px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a>
 
 FreeCodeCamp Track.
 
