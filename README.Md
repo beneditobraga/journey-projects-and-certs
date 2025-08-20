@@ -4,7 +4,7 @@ This repository serves as a central hub for my courses and certifications, showc
 - - - 
 <br><br><br>
 
-<a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -50px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a>
+<a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -40px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a>
 
 <br><br>
 
@@ -55,7 +55,7 @@ Platform Trail Hora de Cordar.
 
 <br><br>
 
-<h2 align="left">Projects Geek University<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo01.jpeg" alt="Logo" width="150"></a></h2>
+<h2 align="left">Projects Geek University<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -50px;" src="images/logo01.jpeg" alt="Logo" width="150"></a></h2>
 
 
 List of Projects based on learning from Geek Univsersity Programming School.
