@@ -11,8 +11,14 @@
                 <div class="post-box">
                     <img src="images/<?= $post['img']?>" alt="">
                     <h2 clas="post-title">
-                        <a href=""><?= $post['title'] ?></a>
+                        <a href="data/post.php/id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
                     </h2>
+                    <p class="post-description"><?= $post['description'] ?></p>
+                    <div class="tags-container">
+                        <?php foreach($post['tags'] as $tag): ?>
+                            <a href="#"><?= $tag ?></a>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
             <?php endforeach; ?>
         </div>
