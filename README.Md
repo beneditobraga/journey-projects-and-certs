@@ -6,6 +6,8 @@ This repository serves as a central hub for my courses and certifications, showc
 
 <a href="https://www.freecodecamp.org/"><img align="right" style="margin-top: -50px;" src="images/logo-freecodecamp.svg" alt="Logo" width="300"></a>
 
+<br><br>
+
 <h2 align="left">FreeCodeCamp</h2>
 
 FreeCodeCamp Track.
