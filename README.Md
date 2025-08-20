@@ -89,8 +89,6 @@ List of Projects based on learning from Geek Univsersity Programming School.
 [Geek University](https://www.geekuniversity.com.br/ "Access the course content here.")
 
 
-<br>
-
 ## Creator
 
 [Benedito Braga](https://beneditobraga.github.io/portfolio/ "Meet the Creator.")

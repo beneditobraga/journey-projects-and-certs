@@ -1,12 +1,11 @@
 # `Hora de Codar`
 
-<a href="https://horadecodar.com.br/"><img align="right" style="margin-top: 10px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a>
+<a href="https://horadecodar.com.br/"><img align="right" style="margin-top: 20px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a>
 
-<br><br><br>
+<br><br><br><br><br>
 
 Platform Trail Hora de Cordar.
 
-[SQL from basic to advanced (with MySQL and Project)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar "Access Here!")
 
 #### `SQL`
 
