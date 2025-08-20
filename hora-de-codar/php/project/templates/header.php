@@ -16,15 +16,15 @@
 </head>
 <body>
     <header>
-        <a href="" id="logo">
+        <a href="index.php" id="logo">
             <img src="images/logo.png" alt="Tutor Blog">
         </a>
         <nav>
             <ul id="navbar">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="#">categorias</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="contato.php">Contato</a></li>
+                    <li><a href="index.php" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">categorias</a></li>
+                    <li><a href="#" class="nav-link">Sobre</a></li>
+                    <li><a href="contato.php" class="nav-link">Contato</a></li>
             </ul>
         </nav>
     </header>
