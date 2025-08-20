@@ -1,5 +1,7 @@
 # `Hora de Codar`
 
+<br><br>
+
 <a href="https://horadecodar.com.br/"><img align="right" style="margin-top: 20px;" src="images/cropped-logo.webp" alt="Logo" width="300"></a>
 
 <br><br><br><br><br>
