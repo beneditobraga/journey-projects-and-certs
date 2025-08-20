@@ -1,8 +1,6 @@
 <?php
     // Inclui o array de posts
-    include_once("data/posts.php"); 
-    var_dump($posts);
-    exit;
+    include_once(__DIR__ . "/data/posts.php"); 
 
     // Inclui o header
     include_once("templates/header.php");
@@ -21,12 +19,28 @@
     }
 ?>
 
-<?php if($currentPost): ?>
+<main id="post-container">
+    <div class="content-container">
+        <h1 id="main-title"><?= $currentPost['title'] ?></h1>
+        <p id="post-description"><?= $currentPost['description'] ?></p>
+        <div class="img-container">
+            <img src="images/<?= $currentPost['img'] ?>" alt="<?= $currentPost['title'] ?>">
+        </div>
+    </div>
+</main>
+
+
+<?php 
+/*
+    if($currentPost): ?>
     <h1><?= $currentPost['title'] ?></h1>
     <p><?= $currentPost['description'] ?></p>
 <?php else: ?>
     <h1>Post não encontrado</h1>
-<?php endif; ?>
+<?php endif; 
+
+*/
+?>
 
 <?php
     include_once("templates/footer.php");
