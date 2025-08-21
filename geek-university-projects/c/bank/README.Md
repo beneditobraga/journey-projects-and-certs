@@ -1,8 +1,9 @@
 <h1 align="left">Bank<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -40px;" src="images/logo01.jpeg" alt="Logo" width="150"></a></h1>
 
 
-- 
+Project under construction...
 
+<!--
 #### How to Play 
 
 - First choose the level:
@@ -28,6 +29,8 @@
  - If the answer is "No", the game will be over:
 
 <div><img aalt="Image showing game over." src="images/finally.png"></div>
+
+-->
 
 #### Dependencies
 
