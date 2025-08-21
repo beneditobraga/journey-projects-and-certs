@@ -3,7 +3,7 @@
 
 List of Projects based on learning from Geek Univsersity Programming School.
 
-### ```C```
+### ```C``` 
 
 - [Game](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/game "Access Here!")
     - Mathematical calculation game where the difficulty is based on the level informed by the player.
@@ -12,7 +12,7 @@ List of Projects based on learning from Geek Univsersity Programming School.
     - Marketplace that simulates the process of registering items and purchasing online.
 
 - [Bank](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/geek-university-projects/c/bank "Access Here!")
-    - .
+    - Functional bank with customer registration, withdrawals, transfers and deposits.
 
 ### ```Java```
 
