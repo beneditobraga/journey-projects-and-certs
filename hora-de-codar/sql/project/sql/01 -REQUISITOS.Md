@@ -19,7 +19,7 @@ O pedido será retidado do balcão, então não precisamos salvar dados do clien
 
 João quer ter a possibilidade de remover pedidos, para os que são cancelados pelos clientes.
 
-João também passou a relação de algumas do que utiliza:
+João também passou a relação de massas, bordas e sabores que utiliza:
 
 Massas:
 - Massa comum
