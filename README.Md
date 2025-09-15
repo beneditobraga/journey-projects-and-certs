@@ -55,6 +55,30 @@ Platform Trail Hora de Cordar.
 
 <br><br>
 
+<h2 align="left">Andre Iacono</h2>
+
+Platform Trail Hora de Cordar.
+
+[SQL from basic to advanced (with MySQL and Project)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar "Access Here!")
+
+#### `SQL`
+
+- [Pizzaria do João)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
+    - Online pizzeria project with orders and side dishes, carried out independently based on the course lessons (In progress).
+
+#### `PHP`
+
+- [Tutor Blog)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
+    - Technology blog, created independently based on course lessons (In progress).
+
+---
+
+#### References
+
+[Hora de Codar](https://horadecodar.com.br/ "Access the course content here.")
+
+<br><br>
+
 <h2 align="left">Projects Geek University<a href="https://www.geekuniversity.com.br/"><img align="right" style="margin-top: -50px;" src="images/logo01.jpeg" alt="Logo" width="150"></a></h2>
 
 
