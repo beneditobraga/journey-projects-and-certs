@@ -39,36 +39,12 @@ Platform Trail Hora de Cordar.
 
 #### `SQL`
 
-- [Pizzaria do João)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
+- [Pizzaria do João](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
     - Online pizzeria project with orders and side dishes, carried out independently based on the course lessons (In progress).
 
 #### `PHP`
 
-- [Tutor Blog)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
-    - Technology blog, created independently based on course lessons (In progress).
-
----
-
-#### References
-
-[Hora de Codar](https://horadecodar.com.br/ "Access the course content here.")
-
-<br><br>
-
-<h2 align="left">Andre Iacono</h2>
-
-Platform Trail Hora de Cordar.
-
-[SQL from basic to advanced (with MySQL and Project)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar "Access Here!")
-
-#### `SQL`
-
-- [Pizzaria do João)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
-    - Online pizzeria project with orders and side dishes, carried out independently based on the course lessons (In progress).
-
-#### `PHP`
-
-- [Tutor Blog)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
+- [Tutor Blog](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
     - Technology blog, created independently based on course lessons (In progress).
 
 ---
@@ -112,6 +88,25 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 [Geek University](https://www.geekuniversity.com.br/ "Access the course content here.")
 
+<h2 align="left">Andre Iacono</h2>
+
+Data Science Projects for Beginners from the Course taught by Andre Iacono.
+
+#### `Data Science with Python`
+
+- [Titanic Project](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
+    - .
+
+- [Ice Cream Project](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
+    - .
+
+---
+
+#### References
+
+[Profile Andre Iacono](https://conectcar.udemy.com/user/andreiacono/ "Access the course content here.")
+
+<br>
 
 ## Creator
 
