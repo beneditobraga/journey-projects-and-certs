@@ -88,6 +88,8 @@ List of Projects based on learning from Geek Univsersity Programming School.
 
 [Geek University](https://www.geekuniversity.com.br/ "Access the course content here.")
 
+<br><br>
+
 <h2 align="left">Andre Iacono</h2>
 
 Data Science Projects for Beginners from the Course taught by Andre Iacono.

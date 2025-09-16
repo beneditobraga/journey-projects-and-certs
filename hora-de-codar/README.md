@@ -11,12 +11,12 @@ Platform Trail Hora de Cordar.
 
 #### `SQL`
 
-- [Pizzaria do João)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
+- [Pizzaria do João](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/sql "Access Here!")
     - Online pizzeria project with orders and side dishes, carried out independently based on the course lessons (In progress).
 
 #### `PHP`
 
-- [Tutor Blog)](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
+- [Tutor Blog](https://github.com/beneditobraga/journey-projects-and-certs/tree/main/hora-de-codar/php "Access Here!")
     - Technology blog, created independently based on course lessons (In progress).
 
 ---
